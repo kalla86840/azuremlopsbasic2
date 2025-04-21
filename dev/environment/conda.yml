@@ -1,0 +1,11 @@
+name: linear-env
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - pandas
+      - scikit-learn
+      - joblib
+      - numpy
+      - requests
+      - azureml-core
